@@ -126,8 +126,8 @@ def legal_confirmation_sync(prompt: str = None, timeout: int = 20) -> bool:
     if os.getenv('KB_AUTO_CONFIRM') == '1':
         return True
 
-    print('
-' + BANNER)
+    print('\n' + BANNER)
+
     print("LEGAL NOTICE: You must only scan systems you own or have written permission to test.")
     print(f"You have {timeout} seconds to respond. Type 'yes' to proceed.")
 

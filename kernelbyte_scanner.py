@@ -143,7 +143,7 @@ def legal_confirmation_sync(prompt: str = None, timeout: int = 20) -> bool:
     t.start()
     t.join(timeout)
     if not answer['value']:
-        print('
+        print('\n' + BANNER)
 [!] No confirmation received (timeout).')
         return False
     if answer['value'] == 'yes':

@@ -1,0 +1,17 @@
+aiohttp
+aiodns
+python-dotenv
+Flask
+requests
+gunicorn
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+jupyterlab
+beautifulsoup4
+selenium
+tqdm
+sqlalchemy
+psycopg2-binary
